@@ -18,7 +18,7 @@
     "@buffetjs/styles": "3.3.8",
     "@buffetjs/utils": "3.3.8",
     "cheerio": "^1.0.0-rc.5",
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^11.1.1",
     "immutable": "^3.8.2",
     "jsonwebtoken": "^8.1.0",
     "koa-static": "^5.0.0",
@@ -36,51 +36,11 @@
     "redux": "^4.0.1",
     "redux-immutable": "^4.0.0",
     "reselect": "^4.0.0",
-    "strapi-helper-plugin": "3.6.11",
+    "strapi-helper-plugin": "ssh://git@github.com/game-school/strapi-helper-plugin.git",
     "swagger-ui-dist": "3.47.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/strapi/strapi.git",
-    "directory": "packages/strapi-plugin-documentation"
-  },
-  "author": {
-    "name": "soupette",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
-  },
-  "maintainers": [
-    {
-      "name": "Strapi",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
-    },
-    {
-      "name": "soupette",
-      "email": "cyril@strapi.io"
-    },
-    {
-      "name": "lauriejim",
-      "email": "jim@strapi.io"
-    }
-  ],
-  "contributors": [
-    {
-      "name": "soupette"
-    },
-    {
-      "name": "Aurelsicoko",
-      "email": "aurelien@strapi.io"
-    },
-    {
-      "name": "lauriejim",
-      "email": "jim@strapi.io"
-    }
-  ],
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=10.16.0 <=18.x.x",
     "npm": ">=6.0.0"
-  },
-  "license": "SEE LICENSE IN LICENSE",
-  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+  }
 }
